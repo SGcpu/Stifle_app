@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(#0c1022, #290058);
+    background: radial-gradient(circle at 100%, #290058, #0c1022 50%, #290058 75%, #0c1022 75%);
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0c1022;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-links{
+    padding: 0.5%;
+    border: white solid 2px;
+    border-radius: 30px;
+}
+.nav-links a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.auth-buttons .login {
+    color: orange;
+    margin-right: 15px;
+}
+
+.demo-button {
+    background: #22aa66;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #050505;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 80px;
+}
+
+.hero-section h1 {
+    padding-right: 50%;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.hero-section h1 span {
+    color: #aaaaff;
+}
+
+.hero-section p {
+    padding-right: 50%;
+    font-size: 18px;
+    color: #d0d0d0;
+    margin-bottom: 40px;
+}
+.cta-buttons{
+    align-self: start;
+}
+
+.cta-buttons .login-button, .signup-button {
+    background: #22aa66;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.signup-button {
+    background: none;
+    color: orange;
+}
+#Meet{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #290058;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}

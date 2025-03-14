@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperactive Mind Focus</title>
+    <link rel="stylesheet" href="contoAlgo.css">
+    <script defer src="controAlgo.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>STIFLE</h1>
+        </div>
+        <nav id="nav_elements">
+            <a href="index.html">Home</a>
+            <a href="Features.html">Features</a>
+            <a href="#prototype_section">Try Now</a>
+            <a href="#cta_section">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero_section">
+            <div class="hero_content">
+                <h1>Master Your Mind</h1>
+                <p>STIFLE's Controalgo helps you focus on one task at a time, guiding you toward your goals with efficiency.</p>
+                <button class="cta_button">Learn More</button>
+            </div>
+            <div class="hero_image">
+                <img src="focus.jpg" alt="Focused individual">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features_section">
+            <h2>How STIFLE Helps</h2>
+            <div class="features_grid">
+                <div class="feature_card">
+                    <span>🧠</span>
+                    <h3>Hyperactive Mind</h3>
+                    <p>Controalgo ensures you focus on a single task till you accomplish it.</p>
+                </div>
+                <div class="feature_card">
+                    <span>🎯</span>
+                    <h3>Stay on Track</h3>
+                    <p>Prevent distractions and remain dedicated to your primary goal.</p>
+                </div>
+                <div class="feature_card">
+                    <span>🕒</span>
+                    <h3>Limit Multitasking</h3>
+                    <p>Improve productivity by focusing on one task at a time.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section id="prototype_section">
+            <h2>Interactive Focus Assistant</h2>
+            <div class="prototype_tools">
+                <div class="tool">
+                    <h3>Set a Task</h3>
+                    <input type="text" id="taskInput" placeholder="Enter your task...">
+                    <button id="startTaskButton">Start Focus Mode</button>
+                </div>
+                <div class="tool">
+                    <h3>Focus Timer</h3>
+                    <p id="focusTimer">00:00:00</p>
+                    <button id="endTaskButton" disabled>End Focus Mode</button>
+                </div>
+                <div class="tool">
+                    <h3>Task Log</h3>
+                    <ul id="taskLog"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="cta_section">
+            <h2>Take Control of Your Mind Today</h2>
+            <button class="cta_button">Get Started Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 STIFLE. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

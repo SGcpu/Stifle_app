@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at 100%, #290058, #0c1022 50%, #290058 75%, #0c1022 75%);
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0c1022;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.auth-buttons .login {
+    color: orange;
+    margin-right: 15px;
+}
+
+.demo-button {
+    background: #22aa66;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.auth-buttons a:hover {
+    background-color: #218838;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.feature-item {
+    background: #1b1b2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-item button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #5a6268;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.feature-item button:hover {
+    background-color: #e0a800;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #000;
+}

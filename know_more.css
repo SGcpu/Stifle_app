@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.founder_box1{
+    margin-left: 10%;
+}
+.founder-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background: linear-gradient(0deg, #1e5113, #a33ff5);
+    height: 100vh;
+}
+.profile_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: linear-gradient(135deg, #1e5113, #f5863f);;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    /* border: 3px dashed ; */
+}
+.known{
+    margin: 0 20%;
+    padding: 5%;
+    background: linear-gradient(135deg, #132251, #b83ff5);
+    border-radius: 25%;
+}
+.details{
+    color: #f5863f;
+}

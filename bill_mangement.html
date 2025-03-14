@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Management System</title>
+    <link rel="stylesheet" href="bill_management.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>STIFLE</h1>
+        </div>
+        <nav id="nav_elements">
+            <a href="#features_section">Features</a>
+            <a href="#prototype_section">Prototype</a>
+            <a href="#cta_section">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero_section">
+            <div class="hero_content">
+                <h1>Bill Management Simplified</h1>
+                <p>Stay on top of your bills with Stifle's AI-powered reminders and tools.</p>
+                <button class="cta_button">Get Started</button>
+            </div>
+            <div class="hero_image">
+                <img src="Stifle_logo.png" alt="Bill Management Illustration">
+            </div>
+        </section>
+
+        <section id="features_section">
+            <h2>Key Features</h2>
+            <div class="features_grid">
+                <div class="feature_card">
+                    <span>📋</span>
+                    <h3>Consolidate Reminders</h3>
+                    <p>AI gathers all your bill reminders in one place for better organization.</p>
+                </div>
+                <div class="feature_card">
+                    <span>📈</span>
+                    <h3>Payment Tracking</h3>
+                    <p>Tracks past payments to give you a clear financial history.</p>
+                </div>
+                <div class="feature_card">
+                    <span>⏰</span>
+                    <h3>Advanced Reminders</h3>
+                    <p>Receive early notifications to avoid missed due dates.</p>
+                </div>
+                <div class="feature_card">
+                    <span>✅</span>
+                    <h3>Stress-free Finances</h3>
+                    <p>Stay on top of your payments effortlessly with our AI assistant.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="prototype_section">
+            <h2>Interactive Prototype</h2>
+            <div class="prototype_tools">
+                <div class="tool">
+                    <h3>Add a Bill</h3>
+                    <input type="text" id="bill-name" placeholder="Enter bill name">
+                    <input type="date" id="bill-date" placeholder="Enter due date">
+                    <button id="add-bill" class="cta_button">Add Bill</button>
+                </div>
+                <div class="tool">
+                    <h3>View Bills</h3>
+                    <button id="view-bills" class="cta_button">Show Bills</button>
+                    <ul id="bill-list"></ul>
+                </div>
+                <div class="tool">
+                    <h3>Mark Payment</h3>
+                    <input type="text" id="mark-paid" placeholder="Enter bill name">
+                    <button id="mark-paid-btn" class="cta_button">Mark as Paid</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta_section">
+            <h2>Ready to Simplify Your Finances?</h2>
+            <a href="index.html#founders"><button class="cta_button">Contact Us</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Stifle AI - Simplifying Your Life with Technology</p>
+    </footer>
+
+    <script src="bill_management.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stifle</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      background-color: #0f0f1f;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: ;
+    }
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: ;
+    }
+    .nav-links a {
+      margin: 0 15px;
+      color: #fff;
+      font-size: 1rem;
+      
+    }
+    .nav-links a:hover {
+      color: #ff6b6b;
+    }
+    .auth-buttons a {
+      margin-left: 20px;
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      border: 1px solid #ff6b6b;
+      border-radius: 5px;
+      color: #ff6b6b;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .auth-buttons a:hover {
+      background-color: #ff6b6b;
+      color: #fff;
+    }
+    .demo-button {
+      background-color: ;
+      color: #fff;
+      
+    }
+    .demo-button:hover {
+      background-color: #22aa66;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      text-align: center;
+      padding: 100px 20px;
+      background: radial-gradient(circle at 100%, #290058, #0c1022 50%, #290058 75%, #0c1022 75%);
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      margin: 0;
+      line-height: 1.2;
+    }
+    .hero-section h1 span {
+      color: ;
+    }
+    .hero-section p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin: 20px 0 30px;
+    }
+    .cta-buttons a {
+      margin: 0 10px;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 5px;
+      color: #fff;
+      text-transform: uppercase;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .login-button {
+      background-color: transparent;
+      color: #ff6b6b;
+    }
+    .login-button:hover {
+      background-color: #ff6b6b;
+      
+    }
+    .signup-button {
+      background-color: #ff6b6b;
+      border: radius=50px;
+    }
+    .signup-button:hover {
+      background-color: #e63939;
+    }
+
+    /* Features Section */
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature {
+      background-color: #1b1b3a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+    }
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .feature p {
+      color: #bbb;
+      margin-bottom: 20px;
+    }
+    .feature button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .feature button:hover {
+      background-color: #43a047;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1b1b3a;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">STIFLE</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="premium.html">Pricing</a>
+      <a href="#">Resources</a>
+      <a href="index.html">Contact</a>
+    </nav>
+    <div class="auth-buttons">
+      <a href="Login page.html" class="login">Log in</a>
+      <a href="#" class="demo-button">Request a demo</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->	
+  <main class="hero-section">
+    <h1>Building blocks for <span>data security</span> and <span>compliance</span></h1>
+    <p>With Your AI-Powered Privacy and Productivity Companion.</p>
+    <div class="cta-buttons">
+      <a href="Login page.html" class="login-button">LOGIN</a>
+      <a href="Login page.html" class="signup-button">SIGN UP</a>
+    </div>
+  </main>
+
+  <!-- Features Section -->
+  <div class="container">
+    <div class="features">
+      <!-- Row 1: Three Cards -->
+      <div class="row">
+        <div class="feature">
+          <h3>ControAlgo</h3>
+          <p>Concentrate on the given task without the burden of multitasking.</p>
+          <a href="contrAlgo.html"><button>Try Now</button></a>
+        </div>
+        <div class="feature">
+          <h3>Smart Bill Management</h3>
+          <p>Never forget to pay a bill on time with our robust management system.</p>
+          <a href="bill_mangement.html"><button>Try Now</button></a>
+        </div>
+        <div class="feature">
+          <h3>Private Messaging Layer</h3>
+          <p>Create a secure messaging layer between you and your users.</p>
+          <a href="/message_layer.html"><button>Try Now</button></a>
+        </div>
+      </div>
+      <!-- Row 2: Two Cards -->
+      <div class="row">
+        <div class="feature">
+          <h3>Ghost Mode</h3>
+          <p>Filter out unnecessary notifications during meetings and stay focused.</p>
+          <a href="ghost-mode.html"><button>Try Now</button></a>
+        </div>
+        <div class="feature">
+          <h3>AI Meeting Assistant</h3>
+          <p>Keep up without showing up. Take notes automatically during meetings.</p>
+          <a href="Meeting Assistant1.html"><button>Try Now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Stifle. All rights reserved.</p>
+  </footer>
+</body>
+</html>
